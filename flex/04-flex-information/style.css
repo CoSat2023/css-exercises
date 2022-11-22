@@ -29,11 +29,14 @@ img {
 .container {
   display: flex;
   justify-content: center;
-  padding-left: 52px;
-  padding-right: 52px;
+  /* padding-left: 52px; */
+  /* padding-right: 52px; */
   /* border: 1px solid black; */
   gap: 52px;
 
+}
+body {
+  text-align: center;
 }
 
 .title {
@@ -44,16 +47,16 @@ img {
 
 .plant {
   /* border: 1px solid red; */
-  display: flex;
-  flex-direction: column;
-  width: 200px
+  /* display: flex;
+  flex-direction: column; */
+  max-width: 200px
 }
 
-.text {
+/* .text {
   text-align: center;
-}
+} */
 
-img {
+/* img {
   margin-left: auto;
   margin-right: auto;
-}
+} */
